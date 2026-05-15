@@ -7,7 +7,7 @@
 #include <chrono> // A library used for high-precision time manipulation.
 #include <thread> // A preprocessor directive that imports the standard thread library.
 #include <string> // This is a preprocessor directive that allows you to use the standard string class.
-using namespace std; // Must be used in able for the wait thing to work
+using namespace std; // Must be used in able for the wait thing to work or for the cout to work which cout basically just prints stuff into the system
 
 int main() {
 	std::cout << "This is an example!";
